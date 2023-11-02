@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+.container {
+  /* background-image: url(./images/flat-design-monsoon-season-clouds-illustration_23-2149424294.avif); */
+  background-repeat:round;
+
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 97vh;
+}
+.under img{
+    width: 1536px;
+    height: 730px;
+}
+
+::placeholder {
+  color: #fff;
+  text-align:center ;
+}
+
+input {
+  background-color: #3c588f;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgb(123, 86, 255);
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+  min-width: 300px;
+  color: #bdf9ff;
+  transition: 0.2s;
+}
+
+input#search:hover {
+  background: #4b2eb4;
+}
+
+input:focus {
+  outline: none;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left: 85px;
+}
+
+.weather {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.weather h2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left: 90px;
+}
+
+.card {
+  background: #6553c0f0;
+  width: 100%;
+  max-width: 470px;
+  height: 70%;
+  padding: 2.5em;
+  text-align: center;
+  border-radius: 30px;
+  color: rgb(0, 255, 234);
+  position: absolute;
+}
+
+.more-info p {
+  font-size: 20px;
+}
+.more-info span {
+  font-weight: 600;
+}
